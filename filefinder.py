@@ -1,4 +1,5 @@
 import os, shutil
+# you may add other extensions also
 dict_extensions = {
     'audio_extensions' : ('mp3'),
     'video_extensions' : ('mp4', 'mkv'),
@@ -6,6 +7,7 @@ dict_extensions = {
     'image_extensions' : ('jpg', 'png'),
     'ppt_extensions'   : ('pptx')
 }
+
 
 def file_finder(current_path, file_extensions):
     files = []
